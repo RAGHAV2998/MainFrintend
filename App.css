@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.network-container {
+  all: unset; /* Resets all inherited styles */
+  height: 100vh; /* Full height */
+  width: 100vw; /* Full width */
+}
+
+.export-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.export-button:hover {
+  background-color: #0056b3;
+}
+
+.export-button:active {
+  background-color: #004494;
+}
+
+
+.export-container {
+  position: relative;
+  display: inline-block;
+}
+
+.export-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  width: 150px;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dropdown-menu li:hover {
+  background: #f1f1f1;
+}

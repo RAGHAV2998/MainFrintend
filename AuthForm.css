@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+/* Container Styles */
+.auth-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+  
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+.form-toggle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+  
+.form-toggle button {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    background: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+  
+.form-toggle button:hover {
+    background: #e8e8e8;
+}
+  
+.form-toggle .active {
+    background: #007BFF;
+    color: #ffffff;
+    border-bottom: 2px solid #0056b3;
+}
+  
+.form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+  
+.form input:focus {
+    outline: none;
+    border: 1px solid #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+  
+.form button {
+    background: #007BFF;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.form button:hover {
+    background: #0056b3;
+}
+  
+.form a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+  
+.form a:hover {
+    text-decoration: underline;
+}
+  
+p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}  
+
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .form-toggle button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .form input {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .form button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
